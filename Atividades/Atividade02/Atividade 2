@@ -1,0 +1,149 @@
+
+Objetivo - 1
+
+
+
+#include <stdio.h>
+
+
+
+int main (void)
+
+{
+
+  int num;
+
+  printf(" Digite o numero interiro: ");/* Informar o numero */
+
+  scanf("%d",&num);
+
+
+
+  if(num%2==0)//operador %
+
+{
+
+  printf("Par");
+
+}
+
+  else
+
+  printf("Impar");
+
+
+
+  return 0;
+
+}
+
+
+
+Objetivo - 2
+
+
+
+#include <stdio.h> 
+
+
+
+int main(void){
+
+
+
+  float d; /* desconto */
+
+  float v ;/* valor */
+
+
+
+  printf ("Valor ate 100: ");
+
+  scanf("%f", &v);
+
+
+
+  if (v <= 100) d = v - (v * 0.01);
+
+{
+
+  printf ("Desconto: %f", d);}
+
+}
+
+// Professor nao consegui fiquei com duvida e essa essa parte da atividade esta incompleta!
+
+
+
+Objetivo - 3
+
+
+
+#include <stdio.h>
+
+
+
+int main(void)
+
+{
+
+  int nota; /* nota */
+
+  printf ("Coloque uma nota de 1 a 5: ");/* Informar o numero para ver a nota */
+
+  scanf("%d", &nota);
+
+   
+
+  if (nota == 1)
+
+  { 
+
+  printf("Ruim");
+
+  } 
+
+   
+
+  else if (nota == 2)
+
+  {
+
+  printf("Insuficiente");
+
+  }
+
+  
+
+  else if (nota == 3)
+
+  {
+
+  printf("Suficiente");
+
+  }
+
+
+
+  else if (nota == 4)
+
+  {
+
+  printf("Bom");
+
+  }
+
+
+
+  else if (nota == 5)
+
+  {
+
+  printf("Ótimo");
+
+  }
+
+ 
+
+}
+
