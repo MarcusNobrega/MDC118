@@ -18,10 +18,10 @@ int main(){
     printf("Coloque o ano: ");
     scanf("%d", &defData.ano);
 
-    printf("Padrão brasileiro: ");
+    printf("Padrão BR: ");
     printf("%d\\%d\\%d \n", defData.dia, defData.mes, defData.ano);
 
-    printf("Padrão americano: ");
+    printf("Padrão US: ");
     printf("%d\\%d\\%d \n", defData.mes, defData.dia, defData.ano);
 
 }
