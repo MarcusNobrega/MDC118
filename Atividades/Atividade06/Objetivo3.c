@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-enum mesesAno { Jan = 1, Fev, Mar, Abr, Mai, Jun, Jul, Ago, Set, Out,  Nov, Dez};
+enum MeA { Jan = 1, Fev, Mar, Abr, Mai, Jun, Jul, Ago, Set, Out,  Nov, Dez};
 
 int main() {
 
